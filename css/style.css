@@ -1,0 +1,95 @@
+body {
+    margin: auto;
+    background: #404040;
+}
+.clock-container h1,
+h2,
+p,
+input {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+p {
+    color: #fff;
+}
+
+.header-container,
+.time-title-container {
+    text-align: center;
+}
+
+.header-container {
+    margin: 0 0 2em 0;
+}
+
+.header-container h1 {
+    font-family: 'Ruge Boogie', cursive;
+    font-size: 80px;
+}
+
+.time-control-container {
+    margin: 0 0 4em 0;
+}
+
+.time-control-container .form-control {
+    text-align: center;
+}
+
+.clock-container {
+    width: 100%;
+    margin: 0 0 2em 0;
+}
+
+.clock {
+    position: relative;
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+    padding-top: 50%;
+    border: 4px solid #fff;
+    margin: 0 auto;
+    background: #6DBDD6;
+}
+
+@media screen and (min-width: 992px){
+    .clock {
+        width: 30%;
+        padding-top: 30%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .clock {
+        width: 70%;
+        padding-top: 70%;
+    }
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.content:before {
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    width: 0;
+    height: 100%;
+}
+
+.content h1 {
+    vertical-align: middle;
+    display: inline;
+}
+
+.clock-container h2 {
+    text-align: center;
+}
+
